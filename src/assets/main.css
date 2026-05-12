@@ -19,4 +19,9 @@
   --color-primary-950: var(--color-lime-950);
 
   --color-primary: var(--color-primary-500);
+
+  --color-darker: #181818;
+  --color-dark: #2b2b2b;
+  --color-secondary-dark: #3a1436;
+  --color-secondary-light: #ff00e6;
 }
