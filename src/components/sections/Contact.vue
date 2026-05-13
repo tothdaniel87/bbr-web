@@ -7,7 +7,7 @@ import Logo from "@/components/Logo.vue";
 
 <template>
   <div class="bg-gray-100 pt-2">
-    <div class="relative overflow-hidden pt-36 pb-40 bg-white rounded-4xl mx-2">
+    <div class="relative overflow-hidden pt-16 md:pt-36 pb-20 md:pb-40 bg-white rounded-4xl mx-2">
       <div class="relative container mx-auto">
         <div class="text-center">
           <PreTitle>Contact</PreTitle>
@@ -16,8 +16,8 @@ import Logo from "@/components/Logo.vue";
           </Title>
         </div>
 
-        <div class="mt-36 grid sm:grid-cols-2 gap-12 max-w-2xl mx-auto items-center px-4 sm:px-6">
-          <address class="block not-italic text-center sm:text-left mb-24 sm:mb-0">
+        <div class="mt-20 md:mt-36 grid sm:grid-cols-2 gap-12 max-w-2xl mx-auto items-center px-4 sm:px-6">
+          <address class="block not-italic text-center sm:text-left mb-16 md:mb-24 sm:mb-0">
             <p class="text-xl font-bold"><span class="tracking-tighter">BEBOLDR</span> Agency</p>
             <p class="mt-4">BEBOLDR Ltd.<br>
               Hungary</p>

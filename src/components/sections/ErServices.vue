@@ -10,7 +10,7 @@ import IconGridItem from "@/components/IconGridItem.vue";
 </script>
 
 <template>
-  <div class="container mx-auto pt-32 px-6">
+  <div class="container mx-auto pt-16 md:pt-32 px-6">
     <div class="">
       <Title as="h2" :level="1">Fill More Rooms. Sell More Experiences.</Title>
       <Lead>We are not just another marketing agency. We bring over a decade of experience in both online
@@ -18,7 +18,7 @@ import IconGridItem from "@/components/IconGridItem.vue";
     </div>
   </div>
 
-  <div class="relative py-24">
+  <div class="relative py-16 md:py-24">
     <div class="absolute inset-x-0 sm:inset-x-2 top-60 bottom-0 rounded-4xl ring-1 ring-black/5 ring-inset bg-primary-300"></div>
 
     <div class="container mx-auto relative">
@@ -87,11 +87,11 @@ import IconGridItem from "@/components/IconGridItem.vue";
         </div>
 
         <div class="px-4 sm:px-0">
-          <Title as="h2" :level="2" class="mt-24">How we work?</Title>
+          <Title as="h2" :level="2" class="mt-16 md:mt-24">How we work?</Title>
           <Lead>Having spent years building, operating and marketing escape rooms ourselves, we understand the unique
             challenges of the industry, from seasonality and customer behaviour to occupancy and long-term growth.</Lead>
 
-          <div class="mt-24 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="mt-16 md:mt-24 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <IconGridItem>
               <template #icon><SearchIcon class="w-8 h-8" /></template>
               <template #title>DISCOVERY & AUDIT</template>

@@ -16,7 +16,7 @@ import ChartSkeleton from "@/components/ChartSkeleton.vue";
     <Lead>We adapt, optimize, and keep you in the loop every step of the way.</Lead>
   </div>
 
-  <div class="mt-24 grid grid-cols-1 gap-4 lg:grid-cols-6 lg:grid-rows-2 px-2 sm:px-6">
+  <div class="mt-16 md:mt-24 grid grid-cols-1 gap-4 lg:grid-cols-6 lg:grid-rows-2 px-2 sm:px-6">
 
     <Card class="max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl">
       <template #top>

@@ -11,14 +11,14 @@ import DaniSrc from "../../assets/Daniel_Beboldr_Agency.webp";
 </script>
 
 <template>
-  <div class="dark mx-2 pt-24 pb-4 md:pt-32 sm:pb-24 md:pb-32 rounded-4xl ring-1 ring-black/5 ring-inset bg-gray-900">
+  <div class="dark mx-2 pt-16 md:pt-24 pb-4 md:pt-32 sm:pb-24 md:pb-32 rounded-4xl ring-1 ring-black/5 ring-inset bg-gray-900">
     <div class="container mx-auto px-4 sm:px-6">
       <div class="">
         <PreTitle>About us</PreTitle>
         <Title as="h2" :level="1" class="mt-2">Meet the Founders</Title>
       </div>
 
-      <div class="sm:grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-24">
+      <div class="sm:grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-16 md:mt-24">
         <div class="sm:col-span-2">
           <div class="max-w-xl">
             <Lead>At <span class="tracking-tighter font-bold text-primary-500">BEBOLDR</span>, we believe success starts with understanding: your business, your audience, and your growth potential.</Lead>
