@@ -37,7 +37,7 @@ import Logo from "@/components/Logo.vue";
     </div>
 
     <div class="py-12 text-center text-sm/6 text-gray-500">
-      © BEBOLDR Ltd. 2025
+      © BEBOLDR Ltd. 2026
     </div>
   </div>
 </template>
