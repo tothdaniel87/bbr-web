@@ -8,12 +8,17 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView,
+      component: EscapeRoomsView,
     },
     {
       path: '/escape-rooms',
       name: 'er',
       component: EscapeRoomsView,
+    },
+    {
+      path: '/home',
+      name: 'home2',
+      component: HomeView,
     },
   ],
 })
